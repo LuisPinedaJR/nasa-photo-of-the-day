@@ -1,15 +1,17 @@
-import React from "react";
-import "./App.css";
-
+import React from 'react'
+import './App.css'
+import Card from './components/CardData'
+import Clap from './components/Clap'
+import CardData from './components/CardData'
+// import CardComponent from './components/CardComponent'
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      {/* <CardComponent /> */}
+      <CardData />
+      <Clap />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
