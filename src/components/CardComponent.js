@@ -2,8 +2,8 @@
 
 // const CardComponent = props => {
 //   return (
-//     <div>
-//       <h1>{}</h1>
+//     <div className="card-div">
+//       <p className="card-p">{props.explanation}</p>
 //     </div>
 //   )
 // }

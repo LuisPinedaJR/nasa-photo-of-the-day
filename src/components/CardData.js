@@ -20,7 +20,7 @@ function CardData() {
       <h1 className="card-h1">{data.title}</h1>
       <h2 className="card-h2">{data.date}</h2>
       <p className="card-p">{data.explanation}</p>
-
+      {/* <CardComponent data={{ data }} /> */}
       <img className="card-image" src={data.hdurl} alt="nasa-space" />
     </div>
   )
