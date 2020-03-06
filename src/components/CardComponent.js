@@ -1,11 +1,11 @@
-// import React from 'react'
+import React from 'react'
 
-// const CardComponent = props => {
-//   return (
-//     <div>
-//       <h1>{}</h1>
-//     </div>
-//   )
-// }
+const CardComponent = props => {
+  return (
+    <div className="card-div">
+      <p className="card-p">{props.explanation}</p>
+    </div>
+  )
+}
 
-// export default CardComponent
+export default CardComponent

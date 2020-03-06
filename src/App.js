@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import Card from './components/CardData'
+//import Card from './components/CardData'
 import Clap from './components/Clap'
 import Rocket from './components/Rocket'
 import CardData from './components/CardData'
